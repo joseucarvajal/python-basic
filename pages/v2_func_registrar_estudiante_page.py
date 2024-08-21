@@ -13,7 +13,7 @@ code = st.text_input("Ingrese su codigo:")
 valor_matricula = st.number_input("Ingrese el valor de la matricula:")
 genero = st.selectbox("Seleccione su genero:", ("Femenino", "Masculino"))
 
-min_date = datetime(1904, 1, 1)  # Fecha mínima
+min_date = datetime(1904, 1, 1)
 max_date = datetime.now()
 fecha_nacimiento = st.date_input(
     "Fecha de nacimiento:", 
