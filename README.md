@@ -16,7 +16,7 @@ Create file *requirements.txt*
 ## Run streamlit project
 
 ```bash
-    streamlit run app/app.py 
+    streamlit run main.py 
 ```
 
 
